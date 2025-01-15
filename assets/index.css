@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: roboto;
+    justify-content: center;
+ align-items: center;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.name input, 
+.name select {
+display: block;
+width: 350px;
+padding: 10px;
+height: 40px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.name {
+    display: flex;
+    gap: 50px;
+    line-height: 40px;
+}
+#email, #password {
+    background-color: #E8F0FE;
+}
+.socialmedia select{
+display: block;
+width: 100%;
+height: 40px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+.socialmedia {
+    margin-top: 20px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.termsandconditions  {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+button {
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.termsandconditions a {
+    text-decoration: none;
+    color: blue;
+}
+footer {
+    
+    font-size: 14px;
+    padding: 20px;
+    text-align: center;
+}
