@@ -9,6 +9,22 @@ body {
  align-items: center;
 }
 
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+}
 .container{
     padding: 20px;
     display: flex;
@@ -58,6 +74,7 @@ button {
     color: white;
     background-color: blue;
     border-radius: 5px;
+    font-size: 20px;
 }
 .termsandconditions a {
     text-decoration: none;
